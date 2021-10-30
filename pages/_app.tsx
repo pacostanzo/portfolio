@@ -1,4 +1,4 @@
-import { Sidebar } from '../components';
+import { Sidebar, Navbar } from '../components';
 import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
@@ -8,6 +8,7 @@ function MyApp({ Component, pageProps }) {
         <Sidebar />
       </div>
       <div className="flex flex-col col-span-12 overflow-hidden bg-white shadow-custom-light dark:shadow-custom-dark rounded-2xl lg:col-span-9 dark:bg-dark-500">
+        <Navbar />
         <Component {...pageProps} />
       </div>
     </div>
