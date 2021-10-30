@@ -11,7 +11,7 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
         </Head>
-        <body className="bg-fixed bg-gradient-to-r from-green-50 to-blue-200 dark:from-dark-500 dark:to-dark-700 dark:text-white">
+        <body className="bg-fixed bg-gray-200 dark:from-dark-500 dark:to-dark-700 dark:text-white">
           <Main />
           <NextScript />
         </body>

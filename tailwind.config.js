@@ -31,8 +31,6 @@ module.exports = {
     extend: {
       boxShadow: ['dark'],
       scale: ['active', 'group-hover'],
-
-      rotate: ['active', 'group-hover'],
     },
   },
   plugins: [],
