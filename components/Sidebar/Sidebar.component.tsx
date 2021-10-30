@@ -39,31 +39,34 @@ const Sidebar = () => {
       <a
         href="/assets/Curriculum vitae.pdf"
         download="Curriculum vitae.pdf"
-        className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"
+        className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
       >
         <GiTie className="w-6 h-6" />
         <span>Download Resume</span>
       </a>
 
       {/* Socials */}
-      <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full ">
+      <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full">
         <a href="https://twitter.com/pacostanzo" target="_blank">
-          <AiFillTwitterCircle className="w-8 h-8 cursor-pointer" />
+          <AiFillTwitterCircle className="w-8 h-8 cursor-pointer transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110" />
         </a>
         <a
           href="https://www.linkedin.com/in/pablo-costanzo-288313169/"
           target="_blank"
         >
-          <AiFillLinkedin className="w-8 h-8 cursor-pointer" target="_blank" />
+          <AiFillLinkedin
+            className="w-8 h-8 cursor-pointer transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
+            target="_blank"
+          />
         </a>
         <a href="https://github.com/costanzopa">
-          <AiFillGithub className="w-8 h-8 cursor-pointer" />{' '}
+          <AiFillGithub className="w-8 h-8 cursor-pointer transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110" />{' '}
         </a>
       </div>
 
       {/* Contacts */}
       <div
-        className="py-4 my-5 bg-gray-200 dark:bg-dark-200 dark:bg-black-500"
+        className="py-4 my-5 bg-gray-200 dark:bg-dark-200 dark:bg-black-500 "
         style={{ marginLeft: '-1rem', marginRight: '-1rem' }}
       >
         <div className="flex items-center justify-center">
@@ -75,14 +78,14 @@ const Sidebar = () => {
       {/* Email Button */}
 
       <button
-        className="w-8/12 px-5 py-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green to-blue-500 hover:scale-105 focus:outline-none"
+        className="w-8/12 px-5 py-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green to-blue-500 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
         onClick={() => window.open(`mailto:${profileData.mail}`)}
       >
         Email me
       </button>
       <button
         onClick={() => console.log('Change Theme')}
-        className="w-8/12 px-5 py-2 my-4 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green to-blue-500 focus:outline-none hover:scale-105 "
+        className="w-8/12 px-5 py-2 my-4 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green to-blue-500 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
       >
         {/* //TODO remove bg black */}
         Toggle Theme
