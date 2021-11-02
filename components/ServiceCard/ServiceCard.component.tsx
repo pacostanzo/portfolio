@@ -1,7 +1,7 @@
 import { FunctionComponent } from 'react';
-import { Service } from '../../types/Service';
+import { IService } from '../../types/Service';
 
-const ServiceCard: FunctionComponent<{ service: Service }> = ({
+const ServiceCard: FunctionComponent<{ service: IService }> = ({
   service: { Icon, title, about },
 }) => {
   //XSS attack :( on our portfolio btw, as an alternate use npm i dom purify
