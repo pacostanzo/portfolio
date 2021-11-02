@@ -5,9 +5,9 @@ import { ImLibrary } from "react-icons/im";
 import { AiFillApi } from "react-icons/ai";
 import { MdComputer } from "react-icons/md";
 
-import { Service } from "../../types/Service";
+import { IService } from "../../types/Service";
 
-export const services: Service[] = [
+export const services: IService[] = [
     {
         Icon: IoLanguageSharp,
         title: "Programming Languages",

@@ -1,0 +1,1 @@
+export type Category = "react" | "node" | "express" | "django" | "mongo";
