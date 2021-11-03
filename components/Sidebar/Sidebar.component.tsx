@@ -23,11 +23,11 @@ const Sidebar = () => {
   const changeTheme = () => {
     setTheme(theme === 'light' ? 'dark' : 'light');
   };
-  
+
   return (
     <>
       <Image
-        src="/images/me.jpeg"
+        src="/images/me.jpg"
         alt="avatar"
         className=" mx-auto border rounded-full "
         height="200px"
