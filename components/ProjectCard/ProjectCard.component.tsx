@@ -40,10 +40,10 @@ const ProjectCard: FunctionComponent<{
       <p className="my-2 text-center">{name}</p>
 
       {showDetail === id && (
-        <div className="absolute top-0 left-0 z-10 grid w-full h-auto p-2 text-black bg-gray-100 rounded-lg md:p-10 dark:bg-dark-100 dark:text-gray-100 md:grid-cols-2 gap-x-12 ">
+        <div className="absolute top-0 left-0 z-10 grid w-full h-auto p-2 md:p-10 text-black bg-gray-100 rounded-lg md:p-10 dark:bg-dark-100 dark:text-gray-100 md:grid-cols-2 gap-x-12 rounded-lg">
           <motion.div variants={stagger} initial="initial" animate="animate">
             <motion.div
-              className="border-4 border-gray-100 "
+              className="border-4 border-green-800 dark:border-gray-100 "
               variants={fadeInUp}
             >
               <Image

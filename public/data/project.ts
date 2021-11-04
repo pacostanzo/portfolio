@@ -51,4 +51,14 @@ export const projects: IProject[] = [
         category: ["deno"],
         key_techs: ["Typescript", "Denoland"],
     },
+    {
+        id: 4,
+        name: "Crypto App",
+        description: "A cryptocurrency app. We're going to use React and multiple APIs powered by https://rapidapi.com.",
+        image_path: "/images/crypto-app.jpg",
+        deployed_url: "https://focused-aryabhata-1b2d67.netlify.app/",
+        github_url: "https://github.com/costanzopa/crypto-app",
+        category: ["react"],
+        key_techs: ["React", "Javascript"],
+    },
 ]
