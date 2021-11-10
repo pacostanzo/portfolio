@@ -14,7 +14,7 @@ const About: NextPage = () => {
       exit="exit"
     >
       <h6 className="my-3 text-base font-medium">
-        I am a Computer Engineering student at the University of Buenos Aires,
+        I'm a Computer Engineering student at the University of Buenos Aires,
         currently working as a full stack developer at{' '}
         <a
           href="https://southend.com.ar/en/home-eng/"
@@ -23,11 +23,10 @@ const About: NextPage = () => {
         >
           {' '}
           Southend Corp
-        </a>{' '}
+        </a>
         , researching, planning and developing different scalable solutions that
-        provide value to SAP Ariba / FieldGlass clients. I am passionate about
-        software development and learning new technologies that this discipline
-        brings.
+        bring value to SAP Ariba / FieldGlass clients. I'm passionate about the
+        web and the software development.
       </h6>
       <div
         className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 "

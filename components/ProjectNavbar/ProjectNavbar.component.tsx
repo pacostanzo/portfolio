@@ -26,6 +26,7 @@ const ProjectNavbar: FunctionComponent<{
       <NavItem value="all" {...props} />
       <NavItem value="react" {...props} />
       <NavItem value="deno" {...props} />
+      <NavItem value="express" {...props} />
     </div>
   );
 };
