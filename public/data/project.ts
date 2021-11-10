@@ -52,7 +52,7 @@ export const projects: IProject[] = [
         key_techs: ["Typescript", "Denoland"],
     },
     {
-        id: 4,
+        id: 5,
         name: "Crypto App",
         description: "A cryptocurrency app. We're going to use React and multiple APIs powered by https://rapidapi.com.",
         image_path: "/images/crypto-app.jpg",
@@ -60,5 +60,15 @@ export const projects: IProject[] = [
         github_url: "https://github.com/costanzopa/crypto-app",
         category: ["react"],
         key_techs: ["React", "Javascript"],
+    },
+    {
+        id: 6,
+        name: "HolyGround",
+        description: "The place where cosmic kites are born. A webpage to find all the football fields where the stars (or not) are born.",
+        image_path: "/images/holyground.jpg",
+        deployed_url: "https://holyground.herokuapp.com/",
+        github_url: "https://github.com/costanzopa/HolyGround",
+        category: ["express"],
+        key_techs: ["Express", "Javascript", "Mapbox"],
     },
 ]

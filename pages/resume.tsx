@@ -36,10 +36,9 @@ const Resume = () => {
             <p className="font-semibold">Southend Corp S.A.</p>
             <p className="my-3">
               Research, planning and development of various scalable solutions
-              that provide value to SAP Ariba / FieldGlass clients, through the
-              use of Rest and SOAP APIs, intervening in the frontend, backend
-              and infrastructure (React, Spring Boot with Docker and Cloud
-              Foundry).
+              that brings value to SAP Ariba / FieldGlass clients, using Rest
+              and SOAP APIs, taking part in the frontend, backend and
+              infrastructure (React, Spring Boot with Docker and Cloud Foundry).
             </p>
           </div>
         </motion.div>
