@@ -66,7 +66,7 @@ const Sidebar = () => {
             target="_blank"
           />
         </a>
-        <a href="https://github.com/costanzopa">
+        <a href="https://github.com/pacostanzo">
           <AiFillGithub className="w-8 h-8 cursor-pointer transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110" />{' '}
         </a>
       </div>
