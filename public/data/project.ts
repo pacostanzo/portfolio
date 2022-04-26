@@ -51,7 +51,7 @@ export const projects: IProject[] = [
         category: ["deno"],
         key_techs: ["Typescript", "Denoland"],
     },
-    {
+    /*{
         id: 5,
         name: "Crypto App",
         description: "A cryptocurrency app. We're going to use React and multiple APIs powered by https://rapidapi.com.",
@@ -60,7 +60,7 @@ export const projects: IProject[] = [
         github_url: "https://github.com/costanzopa/crypto-app",
         category: ["react"],
         key_techs: ["React", "Javascript"],
-    },
+    }*/,
     {
         id: 6,
         name: "HolyGround",
