@@ -56,7 +56,7 @@ export const projects: IProject[] = [
         name: "Crypto App",
         description: "A cryptocurrency app. We're going to use React and multiple APIs powered by https://rapidapi.com.",
         image_path: "/images/crypto-app.jpg",
-        deployed_url: "https://focused-aryabhata-1b2d67.netlify.app/",
+        deployed_url: "https://crypto-aklqz4d9j-costanzopa.vercel.app/",
         github_url: "https://github.com/costanzopa/crypto-app",
         category: ["react"],
         key_techs: ["React", "Javascript"],
