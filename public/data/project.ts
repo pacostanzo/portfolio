@@ -6,7 +6,7 @@ export const projects: IProject[] = [
         name: "Jandchase Clothing",
         description: "A progressive web application, which implements e-commerce in a portfolio project.",
         image_path: "/images/janchase-clothing.jpg",
-        deployed_url: "https://elaborate-blancmange-ab7f84.netlify.app/",
+        deployed_url: "https://jandchase-clothing.netlify.app/",
         github_url: "https://github.com/costanzopa/jandchase-clothing",
         category: ["react"],
         key_techs: ["React", "Redux", "Stripes", "Express", "Firebase"],
